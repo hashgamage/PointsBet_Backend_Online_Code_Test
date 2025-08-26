@@ -16,12 +16,17 @@ Code Improvements
 
 
 1.Typo Fixed :  ToCommaSepatatedList ---> ToCommaSeparatedList
+
 2.Perfomance : Replaced StringBuilder and manual loop with string.Join() and LINQ
+
   - More efficent for typical data sizes
   - Clean, and more readable code
   - Less memory allocation for small to moderate arrays
+- 
 3.Robustness: Add proper validations.
+
 4.Architectural Considerations
+
   - Kept original API signature to avoid breaking changes
   - Added comments explaining design changes rather than changing public interface
   - Balanced improvement with backward compatibility
