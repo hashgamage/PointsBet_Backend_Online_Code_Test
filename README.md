@@ -9,3 +9,21 @@ For candidates, please follow the below points to complete the test:
 - Once complete your solution, please submit the codebase to your GitHub and share the public link with our HR team
 
 Thank you for completing the code test with PointsBet.
+
+___________________________________________________________________________________________________
+
+Code Improvements
+
+
+1.Typo Fixed :  ToCommaSepatatedList ---> ToCommaSeparatedList
+2.Perfomance : Replaced StringBuilder and manual loop with string.Join() and LINQ
+  - More efficent for typical data sizes
+  - Clean, and more readable code
+  - Less memory allocation for small to moderate arrays
+3.Robustness: Add proper validations.
+4.Architectural Considerations
+  - Kept original API signature to avoid breaking changes
+  - Added comments explaining design changes rather than changing public interface
+  - Balanced improvement with backward compatibility
+
+
